@@ -1,0 +1,22 @@
+package br.com.bgrant.sfs.resources;
+
+import com.badlogic.gdx.graphics.Color;
+
+public class GlobalVariables {
+    //window
+    public static final int WINDOW_WIDTH = 800;
+    public static final int WINDOW_HEIGHT = 480;
+
+    //world
+    public static final float WORLD_WIDTH = 80f;
+    public static final float WORLD_HEIGHT = 48f;
+    public static final float MIN_WORLD_HEIGHT = WORLD_HEIGHT  * 0.85F;
+    public static final float WORLD_SCALE = 0.05f;
+
+
+    //colors and fonts
+    public static final Color GOLD = Color.GOLD;
+
+    //game variables
+    public enum Difficult {EASY, MEDIUM, HARD}
+}
