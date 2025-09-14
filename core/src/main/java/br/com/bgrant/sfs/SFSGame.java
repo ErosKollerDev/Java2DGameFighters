@@ -22,7 +22,12 @@ public class SFSGame extends Game {
      * It batches multiple sprite draw calls together to minimize GPU state changes
      * and optimize rendering performance. Must be disposed when no longer needed.
      */
-    //In computer graphics, a sprite is a two-dimensional (2D)
+    /**
+     * In computer graphics, a sprite is a two-dimensional (2D) bitmap that represents a graphical object.
+     * SpriteBatch is a LibGDX utility class that efficiently renders 2D sprites by batching multiple draw calls together.
+     * It minimizes GPU state changes and texture bindings, significantly improving rendering performance.
+     * The batch must be properly disposed when no longer needed to prevent memory leaks.
+     */
     public SpriteBatch batch;
     public ShapeRenderer shapeRenderer;
     public Assets assets;
